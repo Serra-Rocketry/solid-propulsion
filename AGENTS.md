@@ -35,23 +35,23 @@ Este repositório é a **fonte de verdade para geometria e dados brutos de motor
 ```
 missions/                          # Missões da LASC
 ├── lasc-2025-sr-couto/            # Missão SR Couto (LASC 2025)
-│   ├── motor/                     # SR21000
+│   ├── motor/                     # SR1-1000
 │   ├── rocket/                    # Foguete 1km
 │   ├── tests/                     # Testes (hidrostático, estático)
 │   └── README.md
 ├── lasc-2026-thonyan/             # Missão Thonyan (LASC 2026)
-│   ├── motor/                     # SR500M
+│   ├── motor/                     # SR2-500
 │   ├── rocket/                    # Foguete 500m
 │   ├── tests/                     # Testes (hidrostático)
 │   └── README.md
 └── lasc-2026-dedalo/              # Missão Dédalo (LASC 2026)
-    ├── motor/                     # SR1000M
+    ├── motor/                     # SR2-1000
     ├── rocket/                    # Foguete 1km
     ├── tests/                     # Testes
     └── README.md
 
 archive/                           # Arquivos legados
-├── motors/                        # Motores antigos (SR1500, 300M, V1, Cardboard)
+├── motors/                        # Motores antigos (SR1-1500, 300M, V1, Cardboard)
 ├── rockets/                       # Foguetes legados (Commercial)
 ├── molds/                         # Moldes
 ├── nozzle-cimento/                # Nozzle de cimento
@@ -71,6 +71,24 @@ training/                          # Documentação de treinamento
 - **Manter maiúsculas/minúsculas** originais
 - Exemplo: `Restrição_motor.SLDPRT` → `Restricao_motor.SLDPRT`
 
+## Convenção de Nomes de Motores
+
+Padrão: **`SR{versão}-{altura em metros}`**
+
+| Motor | Nome | Missão | Descrição |
+|---|---|---|---|
+| SR1-1000 | SR 1ª versão, 1000m | SR Couto (LASC 2025) | 1º motor de 1km |
+| SR2-1000 | SR 2ª versão, 1000m | Dédalo (LASC 2026) | 2º motor de 1km |
+| SR2-500 | SR 2ª versão, 500m | Thonyan (LASC 2026) | 2º motor de 500m |
+| SR1-1500 | SR 1ª versão, 1500m | Archive | Motor legado |
+
+**Regras:**
+- `SR` = prefixo Serra Rocketry (maiúsculo)
+- `{versão}` = número inteiro sequencial (1, 2, 3...)
+- `{altura}` = altitude alvo em metros
+- Separador: hífen (`-`)
+- Motores legados sem altitude clara (300M, V1, Cardboard) mantêm nome original
+
 ## Organização por Motor
 
 Cada motor tem subpastas conforme aplicável:
@@ -88,7 +106,7 @@ Cada motor tem subpastas conforme aplicável:
 ## Convenções de Imagens
 
 - Imagens ficam em `missions/{missão}/{motor ou rocket}/images/` ou `missions/{missão}/tests/{tipo}/`
-- Renderings SolidWorks: nome descritivo, ex: `render_sr21000.jpg`
+- Renderings SolidWorks: nome descritivo, ex: `render_sr1-1000.jpg`
 - Capturas de tela: em subpasta `capturas/`
 - **Tamanho máximo: 500 KB por imagem** (regra das Boas Práticas)
 - Comprimir antes de commitar: `convert input.jpg -resize 1200x -quality 80 -strip output.jpg`

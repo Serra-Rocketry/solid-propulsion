@@ -7,12 +7,12 @@
 | **Missão** | SR Couto |
 | **Competição** | 6th Latin American Space Challenge (LASC 2025) |
 | **Foguete** | 1km |
-| **Motor** | SR21000 |
+| **Motor** | SR1-1000 |
 | **Data** | 05-08/11/2025 |
 | **Local** | Iacanga, SP |
 | **Resultado** | 11º lugar, Major Damage |
 
-## Motor SR21000
+## Motor SR1-1000
 
 | Especificação | Valor |
 |---|---|
@@ -32,20 +32,20 @@
 ## Teste Hidrostático
 
 - Pressão alvo: 88 bar
-- [Dados do teste](./tests/hydrostatic/TESTE_HIDROSTATICO_SR21000_88bar.xlsx)
+- [Dados do teste](./tests/hydrostatic/TESTE_HIDROSTATICO_SR1-1000_88bar.xlsx)
 
 ## Estrutura
 
 ```
 lasc-2025-sr-couto/
-├── motor/              # SR21000
+├── motor/              # SR1-1000
 │   ├── cad/
 │   ├── drawings/
 │   ├── images/
 │   ├── openmotor/
 │   ├── parasolid/
 │   ├── stl/
-│   └── SR21000.md
+│   └── SR1-1000.md
 ├── rocket/             # Foguete 1km
 │   ├── assembly/
 │   ├── cad/

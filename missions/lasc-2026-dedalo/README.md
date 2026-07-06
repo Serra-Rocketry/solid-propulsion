@@ -7,12 +7,12 @@
 | **Missão** | Dédalo |
 | **Competição** | 7th Latin American Space Challenge (LASC 2026) |
 | **Foguete** | 1km |
-| **Motor** | SR1000M |
+| **Motor** | SR2-1000 |
 | **Data do teste** | 26/06/2026 |
 | **Local** | Laboratório de Adesão e Aderência |
 | **Responsáveis** | Caio, Ítalo e Steffany |
 
-## Motor SR1000M
+## Motor SR2-1000
 
 | Especificação | Valor |
 |---|---|
@@ -64,7 +64,7 @@
 
 ```
 lasc-2026-dedalo/
-├── motor/              # SR1000M (aguardando CAD, issue #24)
+├── motor/              # SR2-1000 (aguardando CAD, issue #24)
 │   ├── cad/
 │   ├── drawings/
 │   ├── images/
@@ -86,7 +86,7 @@ lasc-2026-dedalo/
 ## Issues Relacionadas
 
 - [Issue #7: Dados do teste hidrostático - Dédalo](https://github.com/Serra-Rocketry/motor/issues/7)
-- [Issue #24: SR1000M - Documentar motor](https://github.com/Serra-Rocketry/motor/issues/24)
+- [Issue #24: SR2-1000 - Documentar motor](https://github.com/Serra-Rocketry/motor/issues/24)
 
 ## Referências
 

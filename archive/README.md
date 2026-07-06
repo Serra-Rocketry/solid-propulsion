@@ -6,7 +6,7 @@ Arquivos legados que não estão vinculados a missões específicas da LASC.
 
 | Pasta | Descrição |
 |---|---|
-| `motors/` | Motores antigos (SR1500, 300M, V1, Cardboard) |
+| `motors/` | Motores antigos (SR1-1500, 300M, V1, Cardboard) |
 | `rockets/` | Foguetes legados (Commercial) |
 | `molds/` | Moldes para propelentes |
 | `nozzle-cimento/` | Nozzle de cimento (ideia não implementada) |
@@ -18,7 +18,7 @@ Arquivos legados que não estão vinculados a missões específicas da LASC.
 
 | Motor | Descrição | Status |
 |---|---|---|
-| SR1500 | Um dos primeiros motores, nunca foi para LASC | Concluído |
+| SR1-1500 | Um dos primeiros motores, nunca foi para LASC | Concluído |
 | 300M | Motor antigo | Concluído |
 | V1.0 | Primeiro motor | Concluído |
 | Cardboard | Motor de teste | Concluído |
@@ -27,4 +27,4 @@ Arquivos legados que não estão vinculados a missões específicas da LASC.
 
 - Estes arquivos foram movidos de `docs/` durante a reestruturação por missões
 - Se algum arquivo for de uma missão atual, deve ser movido para a pasta correspondente em `missions/`
-- Issues abertas para verificar: #23 (SR500M), #24 (SR1000M), #25 (Simulações 500m)
+- Issues abertas para verificar: #23 (SR2-500), #24 (SR2-1000), #25 (Simulações 500m)

@@ -7,12 +7,12 @@
 | **Missão** | Thonyan |
 | **Competição** | 7th Latin American Space Challenge (LASC 2026) |
 | **Foguete** | 500m |
-| **Motor** | SR500M |
+| **Motor** | SR2-500 |
 | **Data do teste** | 11/06/2026 |
 | **Local** | Laboratório de Adesão e Aderência |
 | **Responsáveis** | Caio, Joana e Steffany |
 
-## Motor SR500M
+## Motor SR2-500
 
 | Especificação | Valor |
 |---|---|
@@ -63,7 +63,7 @@
 </td>
 <td align="center" width="300">
 <img src="./tests/hydrostatic/teste_hidrostatico_3.jpg" width="300"/><br/>
-<i>Motor SR500M sendo posicionado na bancada</i>
+<i>Motor SR2-500 sendo posicionado na bancada</i>
 </td>
 </tr>
 <tr>
@@ -85,7 +85,7 @@
 ### Gráfico
 
 <img src="./tests/hydrostatic/pressao_tempo.png" width="300"/><br/>
-<em>Pressão × Tempo — teste hidrostático SR500M: atingiu ~64 bar, manteve patamar acima de 62 bar por ~380s sem vazamento.</em>
+<em>Pressão × Tempo — teste hidrostático SR2-500: atingiu ~64 bar, manteve patamar acima de 62 bar por ~380s sem vazamento.</em>
 
 ### Dados
 
@@ -99,7 +99,7 @@
 
 ```
 lasc-2026-thonyan/
-├── motor/              # SR500M (aguardando CAD, issue #23)
+├── motor/              # SR2-500 (aguardando CAD, issue #23)
 │   ├── cad/
 │   ├── drawings/
 │   ├── images/
@@ -120,7 +120,7 @@ lasc-2026-thonyan/
 ## Issues Relacionadas
 
 - [Issue #8: Dados do teste hidrostático - Thonyan](https://github.com/Serra-Rocketry/motor/issues/8)
-- [Issue #23: SR500M - Documentar motor](https://github.com/Serra-Rocketry/motor/issues/23)
+- [Issue #23: SR2-500 - Documentar motor](https://github.com/Serra-Rocketry/motor/issues/23)
 - [Issue #25: Simulações 500m - Verificar origem](https://github.com/Serra-Rocketry/motor/issues/25)
 - [Issue #26: Corrigir formatação de rocket/documentation.md](https://github.com/Serra-Rocketry/motor/issues/26)
 

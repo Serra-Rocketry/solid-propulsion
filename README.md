@@ -42,17 +42,17 @@ Este repositório (`motor`) contém a **documentação da propulsão** e é a **
 ```
 missions/                          # Missões da LASC
 ├── lasc-2025-sr-couto/            # Missão SR Couto (LASC 2025)
-│   ├── motor/                     # SR21000
+│   ├── motor/                     # SR1-1000
 │   ├── rocket/                    # Foguete 1km
 │   ├── tests/                     # Testes (hidrostático, estático)
 │   └── README.md
 ├── lasc-2026-thonyan/             # Missão Thonyan (LASC 2026)
-│   ├── motor/                     # SR500M
+│   ├── motor/                     # SR2-500
 │   ├── rocket/                    # Foguete 500m
 │   ├── tests/                     # Testes (hidrostático)
 │   └── README.md
 └── lasc-2026-dedalo/              # Missão Dédalo (LASC 2026)
-    ├── motor/                     # SR1000M
+    ├── motor/                     # SR2-1000
     ├── rocket/                    # Foguete 1km
     ├── tests/                     # Testes
     └── README.md
@@ -74,9 +74,9 @@ training/                          # Documentação de treinamento
 
 | Missão | Competição | Foguete | Motor | Ano | Resultado |
 |---|---|---|---|---|---|
-| SR Couto | [LASC 2025](https://www.lasc.space/past-events/6th-lasc) | 1km | SR21000 | 2025 | 11º lugar, Major Damage |
-| Thonyan | [LASC 2026](https://www.lasc.space/2026-lasc/overview) | 500m | SR500M | 2026 | Em desenvolvimento |
-| Dédalo | [LASC 2026](https://www.lasc.space/2026-lasc/overview) | 1km | SR1000M | 2026 | Em desenvolvimento |
+| SR Couto | [LASC 2025](https://www.lasc.space/past-events/6th-lasc) | 1km | SR1-1000 | 2025 | 11º lugar, Major Damage |
+| Thonyan | [LASC 2026](https://www.lasc.space/2026-lasc/overview) | 500m | SR2-500 | 2026 | Em desenvolvimento |
+| Dédalo | [LASC 2026](https://www.lasc.space/2026-lasc/overview) | 1km | SR2-1000 | 2026 | Em desenvolvimento |
 
 ## Missões
 
@@ -152,8 +152,8 @@ Este projeto segue as [Boas Práticas da Serra Rocketry](https://github.com/Serr
 |---|---|---|
 | [#8](https://github.com/Serra-Rocketry/motor/issues/8) | [Teste Hidrostático] Dados do teste - Thonyan - 26/06/2026 | Aguardando resposta |
 | [#7](https://github.com/Serra-Rocketry/motor/issues/7) | [Teste Hidrostático] Dados do teste - Dédalo - 26/06/2026 | Aguardando resposta |
-| [#23](https://github.com/Serra-Rocketry/motor/issues/23) | SR500M: Documentar motor (CAD, especificações) | Aguardando CAD |
-| [#24](https://github.com/Serra-Rocketry/motor/issues/24) | SR1000M: Documentar motor (CAD, especificações) | Aguardando CAD |
+| [#23](https://github.com/Serra-Rocketry/motor/issues/23) | SR2-500: Documentar motor (CAD, especificações) | Aguardando CAD |
+| [#24](https://github.com/Serra-Rocketry/motor/issues/24) | SR2-1000: Documentar motor (CAD, especificações) | Aguardando CAD |
 | [#25](https://github.com/Serra-Rocketry/motor/issues/25) | Simulações 500m: Verificar se é da missão Thonyan ou arquivo legado | Aguardando resposta |
 
 ---
