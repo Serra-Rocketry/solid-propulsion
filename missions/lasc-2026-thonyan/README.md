@@ -51,16 +51,41 @@
 
 ### Evidências
 
-![Teste hidrostático 1](./tests/hydrostatic/teste_hidrostatico_1.jpg)
-![Teste hidrostático 2](./tests/hydrostatic/teste_hidrostatico_2.jpg)
-![Teste hidrostático 3](./tests/hydrostatic/teste_hidrostatico_3.jpg)
-![Teste hidrostático 4](./tests/hydrostatic/teste_hidrostatico_4.jpg)
-![Teste hidrostático 5](./tests/hydrostatic/teste_hidrostatico_5.jpg)
-![Teste hidrostático 6](./tests/hydrostatic/teste_hidrostatico_6.jpg)
+<table>
+<tr>
+<td align="center" width="300">
+<img src="./tests/hydrostatic/teste_hidrostatico_1.jpg" width="300"/><br/>
+<i>Bomba hidráulica manual com manômetro e mangueiras</i>
+</td>
+<td align="center" width="300">
+<img src="./tests/hydrostatic/teste_hidrostatico_2.jpg" width="300"/><br/>
+<i>Mesa de pressurização e bancada de testes</i>
+</td>
+<td align="center" width="300">
+<img src="./tests/hydrostatic/teste_hidrostatico_3.jpg" width="300"/><br/>
+<i>Motor SR500M sendo posicionado na bancada</i>
+</td>
+</tr>
+<tr>
+<td align="center" width="300">
+<img src="./tests/hydrostatic/teste_hidrostatico_4.jpg" width="300"/><br/>
+<i>Motor fixado e conectado ao sistema de pressão</i>
+</td>
+<td align="center" width="300">
+<img src="./tests/hydrostatic/teste_hidrostatico_5.jpg" width="300"/><br/>
+<i>Vista lateral do motor na bancada</i>
+</td>
+<td align="center" width="300">
+<img src="./tests/hydrostatic/teste_hidrostatico_6.jpg" width="300"/><br/>
+<i>Vista geral da montagem completa</i>
+</td>
+</tr>
+</table>
 
 ### Gráfico
 
-![Pressão × Tempo — Teste Hidrostático](./tests/hydrostatic/pressao_tempo.png)
+<img src="./tests/hydrostatic/pressao_tempo.png" width="300"/><br/>
+<em>Pressão × Tempo — teste hidrostático SR500M: atingiu ~64 bar, manteve patamar acima de 62 bar por ~380s sem vazamento.</em>
 
 ### Dados
 
