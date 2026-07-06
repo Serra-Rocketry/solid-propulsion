@@ -12,6 +12,23 @@
 | **Local** | Laboratório de Adesão e Aderência |
 | **Responsáveis** | Caio, Joana e Steffany |
 
+## Motor SR500M
+
+| Especificação | Valor |
+|---|---|
+| Empuxo | [aguardando issue #23] |
+| Propulsante | [a definir] |
+| Status | Aguardando CAD |
+
+## Foguete 500m
+
+| Especificação | Valor |
+|---|---|
+| Altitude alvo | 500m |
+| Material do tubo | Alumínio 6063-T5 |
+| Material da tampa | Alumínio 6061 |
+| Material do nozzle | Aço Inox AISI 304 |
+
 ## Teste Hidrostático
 
 ### Parâmetros
@@ -41,9 +58,14 @@
 ![Teste hidrostático 5](./tests/hydrostatic/teste_hidrostatico_5.jpg)
 ![Teste hidrostático 6](./tests/hydrostatic/teste_hidrostatico_6.jpg)
 
+### Gráfico
+
+![Pressão × Tempo — Teste Hidrostático](./tests/hydrostatic/pressao_tempo.png)
+
 ### Dados
 
-- [Planilha de dados (pressão x tempo)](./tests/hydrostatic/TESTE_HIDROSTATICO_500m_62bar.xls)
+- [Planilha de dados — pressão × tempo (.xls)](./tests/hydrostatic/TESTE_HIDROSTATICO_500m_62bar.xls)
+- [Dados exportados — pressão × tempo (.csv)](./tests/hydrostatic/teste_hidrostatico_dados.csv)
 
 ### Vídeo
 
@@ -76,3 +98,9 @@ lasc-2026-thonyan/
 - [Issue #8: Dados do teste hidrostático - Thonyan](https://github.com/Serra-Rocketry/motor/issues/8)
 - [Issue #23: SR500M - Documentar motor](https://github.com/Serra-Rocketry/motor/issues/23)
 - [Issue #25: Simulações 500m - Verificar origem](https://github.com/Serra-Rocketry/motor/issues/25)
+- [Issue #26: Corrigir formatação de rocket/documentation.md](https://github.com/Serra-Rocketry/motor/issues/26)
+
+## Referências
+
+- [7th Latin American Space Challenge (LASC 2026)](https://www.lasc.space)
+- [Relatório técnico de propulsão](./rocket/documentation.md)
