@@ -12,6 +12,23 @@
 | **Local** | Laboratório de Adesão e Aderência |
 | **Responsáveis** | Caio, Ítalo e Steffany |
 
+## Motor SR1000M
+
+| Especificação | Valor |
+|---|---|
+| Empuxo | [aguardando issue #24] |
+| Propulsante | [a definir] |
+| Status | Aguardando CAD |
+
+## Foguete 1km
+
+| Especificação | Valor |
+|---|---|
+| Altitude alvo | 1000m |
+| Material do tubo | [a definir] |
+| Material da tampa | [a definir] |
+| Material do nozzle | [a definir] |
+
 ## Teste Hidrostático
 
 ### Parâmetros
@@ -32,6 +49,17 @@
 | Deformações visíveis | Não |
 | Observações de segurança | Nenhuma |
 
+### Evidências
+
+<!-- TODO: adicionar fotos do teste hidrostático (issue #7) -->
+<!-- TODO: adicionar gráfico de pressão × tempo (issue #7) -->
+<!-- TODO: adicionar CSV de dados (issue #7) -->
+<!-- TODO: adicionar vídeo do teste (issue #7) -->
+
+### Dados
+
+- [Dados — pressão × tempo (.csv)](./tests/hydrostatic/) <!-- TODO: aguardando upload do CSV -->
+
 ## Estrutura
 
 ```
@@ -51,6 +79,7 @@ lasc-2026-dedalo/
 │   ├── parasolid/
 │   └── step/
 ├── tests/
+│   └── hydrostatic/    # Teste hidrostático (26/06/2026)
 └── README.md
 ```
 
@@ -58,3 +87,7 @@ lasc-2026-dedalo/
 
 - [Issue #7: Dados do teste hidrostático - Dédalo](https://github.com/Serra-Rocketry/motor/issues/7)
 - [Issue #24: SR1000M - Documentar motor](https://github.com/Serra-Rocketry/motor/issues/24)
+
+## Referências
+
+- [7th Latin American Space Challenge (LASC 2026)](https://www.lasc.space)
