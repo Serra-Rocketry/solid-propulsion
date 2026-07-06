@@ -51,7 +51,7 @@ missions/                          # Missões da LASC
     └── README.md
 
 archive/                           # Arquivos legados
-├── motors/                        # Motores antigos (SR1-1500, 300M, V1, Cardboard)
+├── motors/                        # Motores antigos (SR1-500, 300M, V1, Cardboard)
 ├── rockets/                       # Foguetes legados (Commercial)
 ├── molds/                         # Moldes
 ├── nozzle-cimento/                # Nozzle de cimento
@@ -80,7 +80,7 @@ Padrão: **`SR{versão}-{altura em metros}`**
 | SR1-1000 | SR 1ª versão, 1000m | SR Couto (LASC 2025) | 1º motor de 1km |
 | SR2-1000 | SR 2ª versão, 1000m | Dédalo (LASC 2026) | 2º motor de 1km |
 | SR2-500 | SR 2ª versão, 500m | Thonyan (LASC 2026) | 2º motor de 500m |
-| SR1-1500 | SR 1ª versão, 1500m | Archive | Motor legado |
+| SR1-500 | SR 1ª versão, 500m | Archive | Motor legado |
 
 **Regras:**
 - `SR` = prefixo Serra Rocketry (maiúsculo)

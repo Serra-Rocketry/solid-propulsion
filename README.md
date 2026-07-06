@@ -58,7 +58,7 @@ missions/                          # Missões da LASC
     └── README.md
 
 archive/                           # Arquivos legados
-├── motors/                        # Motores antigos (SR1500, 300M, V1, Cardboard)
+├── motors/                        # Motores antigos (SR1-500, 300M, V1, Cardboard)
 ├── rockets/                       # Foguetes legados (Commercial)
 ├── molds/                         # Moldes
 ├── nozzle-cimento/                # Nozzle de cimento
