@@ -33,22 +33,34 @@ Este repositório é a **fonte de verdade para geometria e dados brutos de motor
 ## Estrutura do Repositório
 
 ```
-docs/
-├── static-tests/      # Dados brutos e gráficos de testes estáticos
-├── motors/            # CAD e documentação por motor
-│   ├── sr21000/       # Motor principal (final)
-│   ├── sr1500/
-│   ├── 300m/
-│   ├── v1/
-│   └── cardboard/
-├── rockets/           # CAD dos foguetes (não apenas motores)
-│   ├── 500m/
-│   ├── 1000m/
-│   └── commercial/
-├── molds/             # Moldes (STEP)
-├── nozzle/            # Nozzle de cimento + cálculos
-├── tools/             # Ferramentas e gabaritos
-└── training/          # Documentação de treinamento
+missions/                          # Missões da LASC
+├── lasc-2025-sr-couto/            # Missão SR Couto (LASC 2025)
+│   ├── motor/                     # SR21000
+│   ├── rocket/                    # Foguete 1km
+│   ├── tests/                     # Testes (hidrostático, estático)
+│   └── README.md
+├── lasc-2026-thonyan/             # Missão Thonyan (LASC 2026)
+│   ├── motor/                     # SR500M
+│   ├── rocket/                    # Foguete 500m
+│   ├── tests/                     # Testes (hidrostático)
+│   └── README.md
+└── lasc-2026-dedalo/              # Missão Dédalo (LASC 2026)
+    ├── motor/                     # SR1000M
+    ├── rocket/                    # Foguete 1km
+    ├── tests/                     # Testes
+    └── README.md
+
+archive/                           # Arquivos legados
+├── motors/                        # Motores antigos (SR1500, 300M, V1, Cardboard)
+├── rockets/                       # Foguetes legados (Commercial)
+├── molds/                         # Moldes
+├── nozzle-cimento/                # Nozzle de cimento
+├── tools/                         # Ferramentas e gabaritos
+├── static-tests/                  # Testes estáticos antigos
+└── propellants/                   # Propelentes
+
+meetings/                          # Atas de reunião
+training/                          # Documentação de treinamento
 ```
 
 ## Convenções de Nomes de Arquivos
@@ -75,7 +87,7 @@ Cada motor tem subpastas conforme aplicável:
 
 ## Convenções de Imagens
 
-- Imagens ficam em `docs/motors/{motor}/images/`
+- Imagens ficam em `missions/{missão}/{motor ou rocket}/images/` ou `missions/{missão}/tests/{tipo}/`
 - Renderings SolidWorks: nome descritivo, ex: `render_sr21000.jpg`
 - Capturas de tela: em subpasta `capturas/`
 - **Tamanho máximo: 500 KB por imagem** (regra das Boas Práticas)
@@ -85,9 +97,9 @@ Cada motor tem subpastas conforme aplicável:
 
 ## Dados de Teste Estático
 
-- Dados brutos do SD card: `docs/static-tests/{motor}/data.txt`
-- Gráficos: `docs/static-tests/{motor}/empuxo_pressao.jpg`
-- Projetos SciLab: `docs/static-tests/scilab/`
+- Dados brutos do SD card: `archive/static-tests/{motor}/data.txt`
+- Gráficos: `archive/static-tests/{motor}/empuxo_pressao.jpg`
+- Projetos SciLab: `archive/static-tests/scilab/`
 - Os dados do thrust-stand (sistema de aquisição) ficam no repo [Serra-Rocketry/thrust-stand](https://github.com/Serra-Rocketry/thrust-stand)
 
 ## O que NÃO versionar

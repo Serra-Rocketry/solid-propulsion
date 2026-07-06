@@ -40,34 +40,60 @@ Este repositório (`motor`) contém a **documentação da propulsão** e é a **
 ## Estrutura
 
 ```
-docs/
-├── static-tests/          # Dados de testes estáticos
-│   ├── motor-gabriel/     # Dados SD + gráfico
-│   ├── motor-caramelo/
-│   ├── motor-i/
-│   └── scilab/            # Projetos SciLab para análise
-├── motors/                # Documentação por motor
-│   ├── sr21000/           # Motor principal (2025)
-│   ├── sr1500/            # Motor SR1500
-│   ├── 300m/              # Motor 300M
-│   ├── v1/                # Motor V1.0
-│   └── cardboard/         # Motor de papelão
-├── rockets/               # Foguetes (não apenas motores)
-│   ├── 500m/              # Foguete de 500m
-│   ├── 1000m/             # Foguete de 1km
-│   └── commercial/        # Foguete comercial
-├── molds/                 # Moldes para propelentes
-├── tools/                 # Ferramentas e gabaritos
-├── archive/               # Ideias experimentais não implementadas
-├── imagens/               # Fotos, renderings, gráficos
-└── training/              # Documentação de treinamento
+missions/                          # Missões da LASC
+├── lasc-2025-sr-couto/            # Missão SR Couto (LASC 2025)
+│   ├── motor/                     # SR21000
+│   ├── rocket/                    # Foguete 1km
+│   ├── tests/                     # Testes (hidrostático, estático)
+│   └── README.md
+├── lasc-2026-thonyan/             # Missão Thonyan (LASC 2026)
+│   ├── motor/                     # SR500M
+│   ├── rocket/                    # Foguete 500m
+│   ├── tests/                     # Testes (hidrostático)
+│   └── README.md
+└── lasc-2026-dedalo/              # Missão Dédalo (LASC 2026)
+    ├── motor/                     # SR1000M
+    ├── rocket/                    # Foguete 1km
+    ├── tests/                     # Testes
+    └── README.md
+
+archive/                           # Arquivos legados
+├── motors/                        # Motores antigos (SR1500, 300M, V1, Cardboard)
+├── rockets/                       # Foguetes legados (Commercial)
+├── molds/                         # Moldes
+├── nozzle-cimento/                # Nozzle de cimento
+├── tools/                         # Ferramentas e gabaritos
+├── static-tests/                  # Testes estáticos antigos
+└── propellants/                   # Propelentes
+
+meetings/                          # Atas de reunião
+training/                          # Documentação de treinamento
 ```
 
 ## Competições
 
-| Motor | Competição | Missão | Categoria | Ano | Resultado |
+| Missão | Competição | Foguete | Motor | Ano | Resultado |
 |---|---|---|---|---|---|
-| SR21000 | [LASC 2025](https://www.lasc.space/past-events/6th-lasc) | SR Couto | 1 km – SRM | 2025 | 11º lugar, Major Damage |
+| SR Couto | [LASC 2025](https://www.lasc.space/past-events/6th-lasc) | 1km | SR21000 | 2025 | 11º lugar, Major Damage |
+| Thonyan | [LASC 2026](https://www.lasc.space/2026-lasc/overview) | 500m | SR500M | 2026 | Em desenvolvimento |
+| Dédalo | [LASC 2026](https://www.lasc.space/2026-lasc/overview) | 1km | SR1000M | 2026 | Em desenvolvimento |
+
+## Missões
+
+Cada missão da LASC tem sua própria pasta em `missions/` com:
+
+- **motor/** — CAD, desenhos, simulações OpenMotor, imagens
+- **rocket/** — CAD do foguete, montagens, simulações
+- **tests/** — Testes hidrostáticos e estáticos
+- **README.md** — Documentação da missão
+
+### Missões Ativas
+
+| Missão | Pasta | Status |
+|---|---|---|
+| [SR Couto (LASC 2025)](./missions/lasc-2025-sr-couto/) | `missions/lasc-2025-sr-couto/` | Concluída |
+| [Thonyan (LASC 2026)](./missions/lasc-2026-thonyan/) | `missions/lasc-2026-thonyan/` | Em desenvolvimento |
+| [Dédalo (LASC 2026)](./missions/lasc-2026-dedalo/) | `missions/lasc-2026-dedalo/` | Em desenvolvimento |
 
 ## Como Usar
 
@@ -89,7 +115,7 @@ Arquivos `.ric` são do [OpenMotor](https://github.com/reilleya/openMotor), soft
 
 ### Dados de Teste
 
-Os arquivos `.txt` em `static-tests/` contêm dados brutos do SD card no formato:
+Os arquivos `.txt` em `archive/static-tests/` contêm dados brutos do SD card no formato:
 
 ```
 HH:MM:SS ; empuxo(kN) ; tempo(ms)
@@ -117,6 +143,18 @@ Este projeto segue as [Boas Práticas da Serra Rocketry](https://github.com/Serr
 - [Ignitor](https://github.com/Serra-Rocketry/ignitor) — Sistema de ignição remota
 - [Best Practices](https://github.com/Serra-Rocketry/best-practices) — Boas práticas da equipe
 - [MIGRATION.md](./MIGRATION.md) — Histórico de migração do Drive
+- [LASC 2025](https://www.lasc.space/past-events/6th-lasc) — 6th Latin American Space Challenge
+- [LASC 2026](https://www.lasc.space/2026-lasc/overview) — 7th Latin American Space Challenge
+
+## Issues Abertas
+
+| Issue | Título | Status |
+|---|---|---|
+| [#8](https://github.com/Serra-Rocketry/motor/issues/8) | [Teste Hidrostático] Dados do teste - Thonyan - 26/06/2026 | Aguardando resposta |
+| [#7](https://github.com/Serra-Rocketry/motor/issues/7) | [Teste Hidrostático] Dados do teste - Dédalo - 26/06/2026 | Aguardando resposta |
+| [#23](https://github.com/Serra-Rocketry/motor/issues/23) | SR500M: Documentar motor (CAD, especificações) | Aguardando CAD |
+| [#24](https://github.com/Serra-Rocketry/motor/issues/24) | SR1000M: Documentar motor (CAD, especificações) | Aguardando CAD |
+| [#25](https://github.com/Serra-Rocketry/motor/issues/25) | Simulações 500m: Verificar se é da missão Thonyan ou arquivo legado | Aguardando resposta |
 
 ---
 
