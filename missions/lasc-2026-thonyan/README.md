@@ -89,7 +89,6 @@
 
 ### Dados
 
-- [Planilha de dados — pressão × tempo (.xls)](./tests/hydrostatic/TESTE_HIDROSTATICO_500m_62bar.xls)
 - [Dados exportados — pressão × tempo (.csv)](./tests/hydrostatic/teste_hidrostatico_dados.csv)
 
 ### Vídeo
