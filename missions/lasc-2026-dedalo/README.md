@@ -54,26 +54,26 @@
 <table>
 <tr>
 <td align="center" width="300">
-<img src="./tests/hydrostatic/teste_hidrostatico_1.jpg" width="300"/><br/>
+<img src="./tests/hydrostatic/bomba_hidraulica_com_manometro.jpg" width="300"/><br/>
 <i>Bomba hidráulica manual com manômetro e mangueiras</i>
 </td>
 <td align="center" width="300">
-<img src="./tests/hydrostatic/teste_hidrostatico_2.jpg" width="300"/><br/>
-<i>Vista detalhada do equipamento de pressurização</i>
+<img src="./tests/hydrostatic/equipamento_de_pressurizacao.jpg" width="300"/><br/>
+<i>Equipamento de pressurização em laboratório</i>
 </td>
 <td align="center" width="300">
-<img src="./tests/hydrostatic/teste_hidrostatico_3.jpg" width="300"/><br/>
+<img src="./tests/hydrostatic/motor_na_bancada_de_teste.jpg" width="300"/><br/>
 <i>Motor SR2-1000 posicionado na bancada de teste</i>
 </td>
 </tr>
 <tr>
 <td align="center" width="300">
-<img src="./tests/hydrostatic/teste_hidrostatico_4.jpg" width="300"/><br/>
+<img src="./tests/hydrostatic/motor_fixado_com_cameras.jpg" width="300"/><br/>
 <i>Motor fixado com câmeras de monitoramento</i>
 </td>
 <td align="center" width="300">
-<img src="./tests/hydrostatic/teste_hidrostatico_5.jpg" width="300"/><br/>
-<i>Vista geral da montagem completa com câmeras</i>
+<img src="./tests/hydrostatic/vista_geral_da_montagem.jpg" width="300"/><br/>
+<i>Vista geral da montagem completa</i>
 </td>
 </tr>
 </table>
