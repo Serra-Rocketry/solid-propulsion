@@ -86,7 +86,6 @@
 ### Dados
 
 - [Dados exportados — pressão × tempo (.csv)](./tests/hydrostatic/teste_hidrostatico_dados.csv)
-- [Dados brutos — planilha original (.xls)](./tests/hydrostatic/TESTE_HIDROSTATICO_DEDALO_90bar.xls)
 
 ## Estrutura
 
