@@ -51,14 +51,42 @@
 
 ### Evidências
 
-<!-- TODO: adicionar fotos do teste hidrostático (issue #7) -->
-<!-- TODO: adicionar gráfico de pressão × tempo (issue #7) -->
-<!-- TODO: adicionar CSV de dados (issue #7) -->
-<!-- TODO: adicionar vídeo do teste (issue #7) -->
+<table>
+<tr>
+<td align="center" width="300">
+<img src="./tests/hydrostatic/teste_hidrostatico_1.jpg" width="300"/><br/>
+<i>Bomba hidráulica manual com manômetro e mangueiras</i>
+</td>
+<td align="center" width="300">
+<img src="./tests/hydrostatic/teste_hidrostatico_2.jpg" width="300"/><br/>
+<i>Vista detalhada do equipamento de pressurização</i>
+</td>
+<td align="center" width="300">
+<img src="./tests/hydrostatic/teste_hidrostatico_3.jpg" width="300"/><br/>
+<i>Motor SR2-1000 posicionado na bancada de teste</i>
+</td>
+</tr>
+<tr>
+<td align="center" width="300">
+<img src="./tests/hydrostatic/teste_hidrostatico_4.jpg" width="300"/><br/>
+<i>Motor fixado com câmeras de monitoramento</i>
+</td>
+<td align="center" width="300">
+<img src="./tests/hydrostatic/teste_hidrostatico_5.jpg" width="300"/><br/>
+<i>Vista geral da montagem completa com câmeras</i>
+</td>
+</tr>
+</table>
+
+### Gráfico
+
+<img src="./tests/hydrostatic/pressao_tempo.png" width="600"/><br/>
+<em>Pressão × Tempo — teste hidrostático SR2-1000: atingiu ~93 bar, manteve patamar acima de 90 bar por ~240s sem vazamento.</em>
 
 ### Dados
 
-- [Dados — pressão × tempo (.csv)](./tests/hydrostatic/) <!-- TODO: aguardando upload do CSV -->
+- [Dados exportados — pressão × tempo (.csv)](./tests/hydrostatic/teste_hidrostatico_dados.csv)
+- [Dados brutos — planilha original (.xls)](./tests/hydrostatic/TESTE_HIDROSTATICO_DEDALO_90bar.xls)
 
 ## Estrutura
 
