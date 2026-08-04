@@ -87,10 +87,12 @@
 
 - [Dados exportados — pressão × tempo (.csv)](./tests/hydrostatic/teste_hidrostatico_dados.csv)
 
-## Teste Estático 2
+## Teste Estático
 
-- [Dados do teste estático — Empuxo × Tempo](./tests/static/)
-- 2º teste do motor SR2-1000; pico de empuxo ≈ 218.000, queima ≈ 111,4–112,8s (ver [README](./tests/static/README.md))
+- [Dados dos testes estáticos — Empuxo × Tempo](./tests/static/)
+- **1º teste:** pico ≈ 179.700, queima ≈ 165,5–168,2s
+- **2º teste:** pico ≈ 218.000, queima ≈ 111,4–112,8s
+- Detalhes no [README](./tests/static/README.md)
 
 ## Estrutura
 
@@ -112,7 +114,7 @@ lasc-2026-dedalo/
 │   └── step/
 ├── tests/
 │   ├── hydrostatic/    # Teste hidrostático (26/06/2026)
-│   └── static/         # Teste estático 2 do motor
+│   └── static/         # Testes estáticos 1 e 2 do motor
 └── README.md
 ```
 
