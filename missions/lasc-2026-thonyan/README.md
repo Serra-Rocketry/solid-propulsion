@@ -95,6 +95,11 @@
 
 - [Vídeo do teste (Google Drive)](https://drive.google.com/file/d/1uUkc7NuGaZSWjlcIh_S-NmDpeM9jrFmb/view?usp=sharing)
 
+## Teste Estático
+
+- [Dados do teste estático — Empuxo × Tempo](./tests/static/)
+- Pico de empuxo ≈ 26.500, queima ≈ 96,3–99,0s (ver [README](./tests/static/README.md))
+
 ## Estrutura
 
 ```
@@ -113,7 +118,8 @@ lasc-2026-thonyan/
 │   ├── simulation/
 │   └── documentation.md
 ├── tests/
-│   └── hydrostatic/    # Teste hidrostático (11/06/2026)
+│   ├── hydrostatic/    # Teste hidrostático (11/06/2026)
+│   └── static/         # Teste estático do motor
 └── README.md
 ```
 

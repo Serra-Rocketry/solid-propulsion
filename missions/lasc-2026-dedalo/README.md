@@ -87,6 +87,13 @@
 
 - [Dados exportados — pressão × tempo (.csv)](./tests/hydrostatic/teste_hidrostatico_dados.csv)
 
+## Teste Estático
+
+- [Dados dos testes estáticos — Empuxo × Tempo](./tests/static/)
+- **1º teste:** pico ≈ 179.700, queima ≈ 165,5–168,2s
+- **2º teste:** pico ≈ 218.000, queima ≈ 111,4–112,8s
+- Detalhes no [README](./tests/static/README.md)
+
 ## Estrutura
 
 ```
@@ -106,7 +113,8 @@ lasc-2026-dedalo/
 │   ├── parasolid/
 │   └── step/
 ├── tests/
-│   └── hydrostatic/    # Teste hidrostático (26/06/2026)
+│   ├── hydrostatic/    # Teste hidrostático (26/06/2026)
+│   └── static/         # Testes estáticos 1 e 2 do motor
 └── README.md
 ```
 
